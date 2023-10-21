@@ -1,0 +1,19 @@
+body{
+    display:block;
+}
+
+main{
+    position: relative;
+}
+.masthead{
+    text-align: center;
+    position: relative;
+    line-height: 20px;
+}
+
+#me{
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: auto;
+}
