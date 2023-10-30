@@ -1,6 +1,39 @@
 body{
     display:block;
+    background-image: none;
+    background-position-x: 50%;
+    animation-delay: 0s;
+    animation-duration: 10s;
+    animation-name: panoramic;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    width: 444px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* border: 1px solid gold; */
+    will-change: background-position-x;
 }
+
+@keyframes panoramic {
+    100% {
+      background-position-x: 0%;
+    }
+    50% {
+      background-position-x: 100%;
+    }
+    100% {
+      background-position-x: 0%;
+    }
+  }
+/* #body{
+    position: absolute
+} */
+/* #bodyContainer{
+    position:absolute
+
+} */
 
 main{
     position: relative;
@@ -16,4 +49,16 @@ main{
     position: relative;
     text-align: center;
     margin-top: auto;
+}
+img{
+    /* display: inline-block; */
+    max-width: 500px;
+    max-height: 500px;
+    /* margin-bottom: -100px; */
+}
+.pic{
+    position: relative;
+    /* position: sticky; */
+    /* position: fixed; */
+    /* position: static; */
 }

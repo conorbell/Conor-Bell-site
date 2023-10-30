@@ -8,15 +8,16 @@
     <script src="app.js"></script>
     <title>Conor Bell</title>
 </head>
-<body>
+<div id="bodyContainer">
+<body id="body">
     <main>
         <div class="masthead">
-            <div class="container">
-                <img id="me" src="images/head1.jpeg" width="200" height="165">
+            <div class="pic">
+                <img id="me" src="images/me.jpg">
             </div>
             <div class="container">
                 <h1>About Me</h1>
-                <p>Hey, I'm Conor Bell I'm super cool and was born to two loving pick up trucks. life is kinda amazing like that haha</p>
+                <p>Hey, I'm Conor Bell I'm a software engineer!</p>
             </div>
         </div>
 
@@ -25,7 +26,8 @@
     
   
 
-    <button type="button" onclick="playSound()">Click Me!</button>
+    <button type="button" onclick="playSound();changeBackground();myMove() ">Click Me!</button>
     <!-- <audio src="audio/elo.mp3" autoplay></audio> -->
 </body>
+</div>
 </html>
